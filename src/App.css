@@ -1,8 +1,32 @@
-#root {
+/* body{
+  background-color: #282c34;
+  color: #fff;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+} */
+
+/* #root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+} */
+.App{
+  /* max-width: 1280px; */
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.dark-mode{
+  text-align: center;
+  height: 100vh;
+  background-color: #282c34;
+  color: #fff;
+  overflow: hidden;
 }
 
 .logo {
@@ -38,4 +62,12 @@
 
 .read-the-docs {
   color: #888;
+}
+.type{
+  color: #888;
+  font-size: 1.3em;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin: 2em;
 }
